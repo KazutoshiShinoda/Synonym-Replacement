@@ -11,6 +11,18 @@
   - https://github.com/tomhosking/squad-du-split
 - and train QA models first on our `squad-du-train-with-synonym-replacement.json`, and second on the train-v1.1.json from the squad-du-split repo.
 
+- For the evaluation with Hard/Easy split, please use `overlap_dev.json` and `overlap_test.json`, where the question-context lexical overlap for each data point in squad du dev/test split is stored like:
+
+```
+[
+  qa_id_0: question-context lexical overlap,
+  qa_id_1: question-context lexical overlap,
+  ...
+]
+```
+
+- In our experiment, if lexical overlap <= 0.3, then it is classified as Hard; otherwise, it is classified as Easy.
+
 - If you use our dataset, please cite our paper using this bibtex:
 
 ```
