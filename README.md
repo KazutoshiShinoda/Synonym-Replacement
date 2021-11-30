@@ -1,5 +1,9 @@
 # Can Question Generation Debias Question Answering Models? A Case Study on Question–Context Lexical Overlap
 
+<div align="center">
+  <img width="900" alt="mrqa2021poster" src="https://user-images.githubusercontent.com/16998772/143994770-2b86ce66-3e54-4ea1-aff2-fe72950a7117.png">
+</div>
+
 - This repository contains the official dataset used in our paper:
   - [[paper](https://aclanthology.org/2021.mrqa-1.6/)] [[arXiv](https://arxiv.org/abs/2109.11256)] [[poster](https://github.com/KazutoshiShinoda/slides/blob/master/MRQA2021.pdf)]
 
